@@ -35,7 +35,7 @@ let gens = [
     ["Anastasia", "https://i.pinimg.com/236x/19/34/9e/19349efe3de549dabfe42f29d8f016ac.jpg"],
     ["Mulan", "https://i.pinimg.com/236x/3e/c0/69/3ec0692847a84acc6128acf2db6d7e66.jpg"],
     ["Li Shang", "https://i.pinimg.com/236x/95/ee/91/95ee91b6d78ef79a317ab9482e135458.jpg"],
-    ["Raiponce", "https://static.wikia.nocookie.net/lemondededisney/images/d/d7/Raiponce.png/revision/latest?cb=20120731205736&path-prefix=fr"],
+    ["Raiponce", "https://i.pinimg.com/236x/34/67/3c/34673c070558090629241a3f946ca94e.jpg"],
     ["Tarzan", "https://i.pinimg.com/236x/c7/82/42/c782425135e9abeb024f9a07f5d508cb.jpg"],
     ["Jane", "https://i.pinimg.com/564x/7a/30/5a/7a305adb1cd7b41a24173b43b42fb94c.jpg"],
     ["Kida", "https://i.pinimg.com/236x/5a/94/68/5a946807f355dedec64c8ca6f8aea896.jpg"],
