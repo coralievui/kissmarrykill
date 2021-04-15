@@ -6,7 +6,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Anime - Kiss, marry or kill</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Disney - Kiss marry kill</title>
 </head>
 <body>
     <div class="banniere">
@@ -29,121 +30,26 @@
         <img id="person3-image">
         </div>
     </div>
+    <div class="container2">
+        <div class="container container3"></div>
+        <div class="container container3"></div>
+        <div class="container container3"></div>
+    </div>
+
+    <div class="container1 container">
+        <p class="draggable" draggable="true">💋</p>
+        <p class="draggable" draggable="true">💍</p>
+        <p class="draggable" draggable="true">🔪</p>
+    </div>
     <button onclick="generate()">Génerer</button>
 
     <script src="disney.js"></script>
+    <script src="draganddrop.js"></script>
 
     <style>
-        * {
-            user-select: none!important;
-            font-family: 'Poppins';
-            margin: 0px;        
-        }
-
-        html, body {
-            height: 100%;
-            overflow: hidden;
-        }
-        
-        body {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .randoms {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            align-items: center;
-            margin-top: 30px;
-        }
-
-        .randoms h3 {
-            font-size: 25px;
-            margin-bottom: 20px;
-        }
-
-        .randoms img {
-            width: 100%;
-            height: 120%;
-            object-fit: cover;
-            border-radius: 1rem;
-            transition: all ease-in-out .2s;
-        }
-
-        .randoms img:hover {
-            transform: scale(1.15);
-        }
-
-        .randoms div {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 20%;
-            height: 20rem;
-            max-height: 100%;
-        }
-
-        button {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            left: 0;
-            right: 0;
-            background-color: #9452d1;
-            border: none;
-            color: #ffffff;
-            cursor: pointer;
-            padding: .6rem 2rem;
-            outline: 0;
-            transition: all ease-in .2s;
-        }
-
-        button:hover {
-            background-color: #aa5ff0;
-            color: white;
-            border-color: white;
-        }
-
-        .menu {
-            background-color: #9452d1;
-            border: none;
-            color: #ffffff;
-            cursor: pointer;
-            width: 160px;
-            height: 160px;
-            position: fixed;
-            top: 0px;
-            border-bottom-right-radius: 130px;
-            font-size: 25px;
-            margin: 0px;
-            margin-right: 100px;
-        }
-
-        .menu:hover {
-            transform: scale(1.2);
-        }
-
-        .banniere {
-            display: flex;
-            justify-content: center;
-        }
-
-        h1 {
-            font-size: 60px;
-            text-align: center;
-            font-family: 'Kaushan Script';
-            margin: 10px;
-        }
-
-        h2 {
-            font-size: 35px;
-            text-align: center;
-            color: #9452d1;
-            font-family: 'Kaushan Script';
-            right: 55px;
-            top: 35px;
-            position: fixed;
+        :root {
+            --main-color : #9452d1;
+            --hover-color : #aa5ff0;
         }
     </style>
 </html>
