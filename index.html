@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +9,50 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Menu - Kiss Marry kill</title>
 </head>
+
 <body>
-    <img src="kmkblack.PNG" alt="" width="150px">
-    <h1>Kiss, marry or kill ?</h1>
-    <h2>Choisissez votre version du jeu:</h2>
-    <div class="bulles">
-    <a href="kpop.html"><button class="kpop">K-pop</button></a>
-    <a href="anime.html"><button class="anime">Anime</button></a>
-    <a href="series.html"><button class="series">Films & Series</button></a>
-    <a href="disney.html"><button class="disney">Disney</button></a>
-    <button class="mystere">?</button>
+    <img src="https://i.ibb.co/522fWSt/kmkblack.png" width="150px">
+    <button class="help" data-modal-target="#modal">?</button>
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="title">Comment jouer ?</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            Vous n'avez jamais joué à ce jeu ? <br> Rassurez-vous, c'est simple comme bonjour ! <br><br>
+            Choisissez une catégorie, vous y verrez un trio d'individus.
+            <br>
+            Si vous ne connaissez pas les personnages tirés au hasard, vous pouvez cliquer sur le bouton "Générer" en bas de votre écran.
+            <br>
+            Si le trio vous plait, vous pourrez faire un classement par ordre de préférence : "marry" pour votre chouchou, "kiss" pour la 2e place du podium et "kill" pour celui que vous aimez le moins (tout cela en faisant glisser les icône 💋/💍/🔪 sous les personnages correpondants).
+            <br>
+            Si tuer un personnage vous fait mal au cœur, remplacez "kill" par "hug" (câlin). <br>
+            <br>
+            Je rajouterai des catégories au fur et à mesure, n'hésitez pas à me faire des suggestions dans le formulaire en bas de la page d'accueil.
+            Bon amusement !
+        </div>
     </div>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf7SjPcivX3vlRBE9nA-QPPs6JD6Bq5UCZTxhhNaTAVmmbW9w/viewform?embedded=true" 
-    width="800" height="800" frameborder="0" marginheight="0" marginwidth="0" class="form">Chargement…</iframe>
-    <p>© Katmyr - 2021</p>
+    <div id="overlay"></div>
+    <h1>Kiss, marry or kill ?</h1>
+    <h2>Choisissez votre version du jeu :</h2>
+    <div class="bulles">
+        <a href="kpop.html"><button class="kpop">K-pop</button></a>
+        <a href="anime.html"><button class="anime">Anime</button></a>
+        <a href="series.html"><button class="series">Films & Series</button></a>
+        <a href="disney.html"><button class="disney">Disney</button></a>
+        <a href="games.html"><button class="games">Jeux-Vidéos</button></a>
+        <!--<button class="mystere">?</button>-->
+    </div>
+    <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSf7SjPcivX3vlRBE9nA-QPPs6JD6Bq5UCZTxhhNaTAVmmbW9w/viewform?embedded=true"
+        width="800" height="800" frameborder="0" marginheight="0" marginwidth="0" class="form">Chargement…</iframe>
+    <p>©2021 - Katmyr</p>
+    <script src="popup.js"></script>
     <style>
         * {
-            user-select: none!important;
+            user-select: none !important;
             font-family: 'Poppins';
-            margin: 0px;        
+            margin: 0px;
         }
 
         button {
@@ -58,6 +84,91 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+        }
+
+        .help {
+            width: 40px;
+            height: 40px;
+            margin: 50px;
+            background-color: black;
+            opacity: 0.25;
+            font-size: 20px;
+            right: 0;
+            top: 0;
+            position: absolute;
+        }
+
+        .help:hover {
+            opacity: 0.5;
+            transform: scale(1.0);
+        }
+
+        .close-button {
+            width: unset;
+            height: unset;
+            font-size: 30px;
+            margin: 0px;
+            background-color: unset;
+            color: black;
+            opacity: 0.5;
+            font-weight: bold;
+        }
+
+        .close-button:hover {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        .modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            transition: 350ms ease-in-out;
+            background-color: white;
+            border: solid 1px rgb(180, 180, 180);
+            border-radius: 20px;
+            z-index: 10;
+            width: 550px;
+            max-width: 80%;
+        }
+
+        .modal.active {
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        .modal-header {
+            padding: 10px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: solid 2px rgb(180, 180, 180);
+        }
+
+        .modal-header .title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .modal-body {
+            padding: 10px 15px;
+        }
+
+        #overlay {
+            position: fixed;
+            opacity: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, .5);
+            transition: 200ms ease-in-out;
+            pointer-events: none;
+        }
+
+        #overlay.active {
+            opacity: 1;
+            pointer-events: all;
         }
 
         .kpop {
@@ -92,6 +203,14 @@
             background-color: #aa5ff0;
         }
 
+        .games {
+            background-color: #49c58b;
+        }
+
+        .games:hover {
+            background-color: #49dd98;
+        }
+
         h1 {
             font-size: 60px;
             text-align: center;
@@ -109,9 +228,9 @@
         .form {
             margin-top: 300px;
             text-align: center;
-            width:100%;
+            width: 100%;
         }
-    
+
         p {
             text-align: center;
             margin: 10px;
@@ -129,4 +248,5 @@
         }
     </style>
 </body>
+
 </html>
