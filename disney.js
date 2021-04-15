@@ -75,7 +75,11 @@ let gens = [
     ["Violette", "https://i.pinimg.com/236x/3b/49/7c/3b497cbf302e044d214a926c5558bc8b.jpg"],
     ["Vanellope", "https://i.pinimg.com/236x/d6/dd/be/d6ddbe64bece560f198a81020544c8c1.jpg"],
     ["Ralph", "https://i.pinimg.com/564x/65/d0/c3/65d0c3dafef97cc282d124baf2eda1f1.jpg"],
-    ["Shank", "https://i.pinimg.com/236x/cc/b3/19/ccb319062a2453a57610e0ff9d3558d1.jpg"]
+    ["Shank", "https://i.pinimg.com/236x/cc/b3/19/ccb319062a2453a57610e0ff9d3558d1.jpg"],
+    ["Mickey", "https://i.pinimg.com/564x/29/e6/4e/29e64e3f482601b12cc902c159d7fa4c.jpg"],
+    ["Minnie", "https://i.pinimg.com/564x/e9/68/eb/e968eb48f0fabfff65a9bc39fbe60c65.jpg"],
+    ["Picsou", "https://i.pinimg.com/564x/15/25/7f/15257f8b745d6748255404dfd0b70d71.jpg"],
+    ["Donald", "https://i.pinimg.com/564x/12/dc/fc/12dcfc1e1a63f2c6b2b2ce95ef84ade7.jpg"]
 ]
 
 function generate() {
