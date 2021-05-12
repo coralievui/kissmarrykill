@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <meta name="og:image" content="favicon.ico" />
+    <meta
+            name="description"
+            content="Joue seul ou avec tes amis !"
+    />
+    <meta name="theme-color" content="#FF9696" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Anime - Kiss marry kill</title>
+</head>
+<body>
+    <div class="banniere">
+    <a href="index.html"><button class="menu">Menu</button></a>
+    <h1>Kiss, marry or kill ?</h1>
+    <h2>Acteurs</h2>
+    </div>
+    <br><br>
+    <div class="randoms">
+        <div>
+        <h3 id="person1-text"></h3>
+        <img id="person1-image">
+        </div>
+        <div>
+        <h3 id="person2-text"></h3>
+        <img id="person2-image">  
+        </div>
+        <div>
+        <h3 id="person3-text"></h3>
+        <img id="person3-image">
+        </div>
+    </div>
+    <div class="container2">
+        <div class="container container3"></div>
+        <div class="container container3"></div>
+        <div class="container container3"></div>
+    </div>
+
+    <div class="container1 container">
+        <p class="draggable" draggable="true">💋</p>
+        <p class="draggable" draggable="true">💍</p>
+        <p class="draggable" draggable="true">🔪</p>
+    </div>
+    <button onclick="generate()">Génerer</button>
+
+    <script src="actors.js"></script>
+    <script src="draganddrop.js"></script>
+
+    <style>
+        :root {
+            --main-color : #FD6E6E;
+            --hover-color : #FF9696;
+        }
+    </style>
+</html>
