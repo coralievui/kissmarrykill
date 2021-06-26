@@ -50,6 +50,7 @@ let gens = [
     ["Noa", "https://i.pinimg.com/564x/9d/77/16/9d77168aad89b8c5755265d909241e00.jpg"],
     ["Tiana", "https://i.pinimg.com/236x/f8/18/4d/f8184d05f09ec46461f0c5e4bfad36e4.jpg"],
     ["Naveen", "https://i.pinimg.com/236x/44/4a/33/444a330ac92ed584cf9db7ccce34acc0.jpg"],
+    ["Dr Facilier", "https://i.pinimg.com/564x/57/bc/8c/57bc8c3a8c51cb0189094bcd00766fa3.jpg"]
     ["Charlotte", "https://i.pinimg.com/236x/e7/c3/99/e7c3995f59b6e7a88ee3676d40bb4219.jpg"],
     ["Flynn", "https://i.pinimg.com/236x/04/f9/35/04f93570abf5044ff3804782a9e2119d.jpg"],
     ["Merida", "https://i.pinimg.com/236x/bd/3f/3f/bd3f3fb8e39e53102527d98cadd010a3.jpg"],
