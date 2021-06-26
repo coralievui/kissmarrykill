@@ -17,6 +17,10 @@ let gens = [
     ["All Might (MHA)", "https://i.pinimg.com/564x/49/9d/1f/499d1f4c1f3038c689cd8553009cf93e.jpg"],
     ["Nejire (MHA)", "https://i.pinimg.com/564x/d0/65/ee/d065eedf730abdb9cc8064a28b0436cf.jpg"],
     ["Hawks (MHA)", "https://i.pinimg.com/564x/60/5c/54/605c54a8a646cbec831d2e79fbd0a6a5.jpg"],
+    ["Yuga (MHA)", "https://i.pinimg.com/564x/93/35/3c/93353cab84e18d0e72ac53887c8dfbb8.jpg"],
+    ["Toga (MHA)", "https://i.pinimg.com/564x/fc/8d/45/fc8d4511b92f8ddbbe31817404fd3a12.jpg"],
+    ["Fumikage (MHA)", "https://i.pinimg.com/564x/37/50/e9/3750e9bc39caa14124cecc4ad36db307.jpg"],
+    ["Mirko (MHA)", "https://i.pinimg.com/564x/fe/62/38/fe6238e0bcc22e4b2434a299c325e3df.jpg"],
     ["Light (Death Note)", "https://i.pinimg.com/564x/45/ef/f6/45eff6467ed3bc90ea480123566e0f0b.jpg"],
     ["Misa (Death Note)", "https://i.pinimg.com/564x/60/09/50/6009501d27ef3be40feb23dc53c821e0.jpg"],
     ["L (Death Note)", "https://i.pinimg.com/564x/a7/08/46/a70846a58007be74ffcbc6e5295c304f.jpg"],
@@ -89,7 +93,7 @@ let gens = [
     ["Kageyama (Haikyuu)", "https://i.pinimg.com/564x/a1/55/ca/a155cadd2e8f77997490c122baec2020.jpg"],
     ["Kenma (Haikyuu)", "https://i.pinimg.com/564x/3b/ea/84/3bea84a11b7821445c993767600fc02f.jpg"],
     ["Nishinoya (Haikyuu)", "https://i.pinimg.com/564x/71/3c/90/713c905c3c06e67b51b3c89a38dd34b8.jpg"],
-    ["Zero Two", "https://i.pinimg.com/564x/33/45/d5/3345d5287dcb80a5221808d714ce6290.jpg"]
+    ["Zero Two", "https://i.pinimg.com/564x/33/45/d5/3345d5287dcb80a5221808d714ce6290.jpg"],
 ]
 
 function generate() {
