@@ -85,7 +85,9 @@ let gens = [
     ["Freddie", "https://i.pinimg.com/564x/3c/a5/81/3ca58126173a0232ac184d1a5ecdea64.jpg"],
     ["Jessie", "https://i.pinimg.com/564x/c1/e7/9d/c1e79d0f2974ecf2625cf34c08a176ac.jpg"],
     ["Emma", "https://i.pinimg.com/564x/af/30/d0/af30d031bee53aba30c65f5f7895a7b5.jpg"],
-    ["Luke", "https://i.pinimg.com/564x/41/74/96/417496d0e5ab15362e9c3354d0d58704.jpg"]
+    ["Luke", "https://i.pinimg.com/564x/41/74/96/417496d0e5ab15362e9c3354d0d58704.jpg"],
+    ["Enola Holmes", "https://i.pinimg.com/564x/70/8c/1b/708c1bed0fb2397e4bf81f8a4cc1afec.jpg"],
+    ["Mr Bean", "https://i.pinimg.com/564x/72/f3/ab/72f3ab641148d227d799570de7547777.jpg"]
 ]
 
 function generate() {
