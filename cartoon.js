@@ -22,7 +22,7 @@ let gens= [
 ["Oncle Stan", "https://i.pinimg.com/564x/fe/16/1e/fe161e1d14b0509e650f173273ad87b0.jpg"],
 ["Bill Cipher", "https://i.pinimg.com/564x/cb/72/91/cb7291031e3de9af88c124ac57ab1171.jpg"],
 ["Wendy", "https://i.pinimg.com/564x/f7/a5/aa/f7a5aa8d70e2838ffbe3c34590a789c3.jpg"],
-["Omer", "https://i.pinimg.com/236x/e2/98/0d/e2980d8d3cbf515d102c295f76012d7f.jpg"],
+["Homer", "https://i.pinimg.com/236x/e2/98/0d/e2980d8d3cbf515d102c295f76012d7f.jpg"],
 ["Marge", "https://i.pinimg.com/564x/aa/57/de/aa57de0347b5470a6de8e46ca160c948.jpg"],
 ["Bart", "https://i.pinimg.com/564x/8d/b6/cb/8db6cb3f7bff3bf8b29a65c0a98aa1ed.jpg"],
 ["Lisa", "https://i.pinimg.com/564x/81/dc/a3/81dca3fa5aad979c4d03b6361edd1101.jpg"],
