@@ -39,6 +39,16 @@ let gens = [
     ["Ghostface", "https://i.pinimg.com/564x/10/e3/45/10e3451ea9b6b2e4284319e6de15c888.jpg"],
     ["Freddy", "https://i.pinimg.com/564x/5a/fd/99/5afd993a5440b2227e6a4d292981af2d.jpg"],
     ["Slenderman", "https://i.pinimg.com/564x/f1/48/e9/f148e911712f11450d0ef03386add000.jpg"],
+    ["La Dame Blanche","https://i.pinimg.com/564x/fd/c9/01/fdc901c81b374c296eb276e802d55528.jpg"]
+    ["Hannibal Lecter","https://i.pinimg.com/564x/b0/eb/40/b0eb40b3192a09067eb94458fb0446a4.jpg"]
+    ["Sarah Sanderson","https://i.pinimg.com/564x/56/30/ee/5630eec5f7b823103160647f0f37d299.jpg"]
+    ["Winifred Sanderson","https://i.pinimg.com/564x/2b/54/5f/2b545f62f320e1242d3170bcbcbe4d85.jpg"]
+    ["Mary Sanderson","https://i.pinimg.com/564x/72/63/f3/7263f3f37f563d21c9da493cf839ee56.jpg"]
+    ["",""]
+    ["",""]
+    ["",""]
+    ["",""]
+    ["",""]
 ]
 
 function generate() {
