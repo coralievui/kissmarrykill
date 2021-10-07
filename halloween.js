@@ -59,7 +59,7 @@ let gens = [
     ["Aragog","https://i.pinimg.com/564x/05/b4/8e/05b48edf8fefb3d7f14bc0a95dbb104b.jpg"],
     ["Kuchisake-onna","https://i.pinimg.com/564x/2a/50/99/2a509901fb872ef89467f7c9cf62cc33.jpg"],
     ["The Grudge","https://i.pinimg.com/564x/a3/85/35/a3853551e41b3481168a74b4387ccb70.jpg"]
-],
+]
 
 function generate() {
     let person1 = gens[Math.floor(Math.random() * gens.length)];
