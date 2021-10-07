@@ -39,27 +39,27 @@ let gens = [
     ["Ghostface", "https://i.pinimg.com/564x/10/e3/45/10e3451ea9b6b2e4284319e6de15c888.jpg"],
     ["Freddy", "https://i.pinimg.com/564x/5a/fd/99/5afd993a5440b2227e6a4d292981af2d.jpg"],
     ["Slenderman", "https://i.pinimg.com/564x/f1/48/e9/f148e911712f11450d0ef03386add000.jpg"],
-    ["La Dame Blanche","https://i.pinimg.com/564x/fd/c9/01/fdc901c81b374c296eb276e802d55528.jpg"]
-    ["Hannibal Lecter","https://i.pinimg.com/564x/b0/eb/40/b0eb40b3192a09067eb94458fb0446a4.jpg"]
-    ["Sarah Sanderson","https://i.pinimg.com/564x/56/30/ee/5630eec5f7b823103160647f0f37d299.jpg"]
-    ["Winifred Sanderson","https://i.pinimg.com/564x/2b/54/5f/2b545f62f320e1242d3170bcbcbe4d85.jpg"]
-    ["Mary Sanderson","https://i.pinimg.com/564x/72/63/f3/7263f3f37f563d21c9da493cf839ee56.jpg"]
-    ["Catwoman","https://i.pinimg.com/564x/d8/eb/5b/d8eb5bbd5fa2b53682dec92a4339f231.jpg"]
-    ["Bella","https://i.pinimg.com/564x/79/d2/91/79d291f3145efcf242a396fc6127b99f.jpg"]
-    ["Edward","https://i.pinimg.com/564x/9e/48/3d/9e483dd20b7e8b1a04477cf2143f20c7.jpg"]
-    ["Tinky Winky","https://i.pinimg.com/564x/ff/0f/64/ff0f64b6abddd3c021ff6039181e4b85.jpg"]
-    ["Gipsy","https://i.pinimg.com/564x/e3/d8/5b/e3d85be567daad65ada292499a8422bc.jpg"]
-    ["Lala","https://i.pinimg.com/564x/81/e5/85/81e585f5a6f592ff2428975bb968292d.jpg"]
-    ["Po","https://i.pinimg.com/564x/11/45/e2/1145e2ff989c15a40f2bef8c5be307e5.jpg"]
-    ["Thomas","https://i.pinimg.com/564x/b2/bc/74/b2bc74df6904aa1c9b562d0660f22bb2.jpg"]
-    ["Demogorgon","https://i.pinimg.com/564x/32/3d/2a/323d2affed10be4c893c585206e5c66e.jpg"]
-    ["La Poupée","https://i.pinimg.com/564x/96/9c/c1/969cc1a9bda05b1aa07b17cfeee9295e.jpg"]
-    ["Kappa","https://i.pinimg.com/564x/4e/fc/f6/4efcf689174f792bcd7f721c167e42b2.jpg"]
-    ["Troll","https://i.pinimg.com/564x/16/f9/cc/16f9ccf1486080b39b28a68410c26b78.jpg"]
-    ["Aragog","https://i.pinimg.com/564x/05/b4/8e/05b48edf8fefb3d7f14bc0a95dbb104b.jpg"]
-    ["Kuchisake-onna","https://i.pinimg.com/564x/2a/50/99/2a509901fb872ef89467f7c9cf62cc33.jpg"]
-    ["The Grudge","https://i.pinimg.com/564x/a3/85/35/a3853551e41b3481168a74b4387ccb70.jpg"]
-]
+    ["La Dame Blanche","https://i.pinimg.com/564x/fd/c9/01/fdc901c81b374c296eb276e802d55528.jpg"],
+    ["Hannibal Lecter","https://i.pinimg.com/564x/b0/eb/40/b0eb40b3192a09067eb94458fb0446a4.jpg"],
+    ["Sarah Sanderson","https://i.pinimg.com/564x/56/30/ee/5630eec5f7b823103160647f0f37d299.jpg"],
+    ["Winifred Sanderson","https://i.pinimg.com/564x/2b/54/5f/2b545f62f320e1242d3170bcbcbe4d85.jpg"],
+    ["Mary Sanderson","https://i.pinimg.com/564x/72/63/f3/7263f3f37f563d21c9da493cf839ee56.jpg"],
+    ["Catwoman","https://i.pinimg.com/564x/d8/eb/5b/d8eb5bbd5fa2b53682dec92a4339f231.jpg"],
+    ["Bella","https://i.pinimg.com/564x/79/d2/91/79d291f3145efcf242a396fc6127b99f.jpg"],
+    ["Edward","https://i.pinimg.com/564x/9e/48/3d/9e483dd20b7e8b1a04477cf2143f20c7.jpg"],
+    ["Tinky Winky","https://i.pinimg.com/564x/ff/0f/64/ff0f64b6abddd3c021ff6039181e4b85.jpg"],
+    ["Gipsy","https://i.pinimg.com/564x/e3/d8/5b/e3d85be567daad65ada292499a8422bc.jpg"],
+    ["Lala","https://i.pinimg.com/564x/81/e5/85/81e585f5a6f592ff2428975bb968292d.jpg"],
+    ["Po","https://i.pinimg.com/564x/11/45/e2/1145e2ff989c15a40f2bef8c5be307e5.jpg"],
+    ["Thomas","https://i.pinimg.com/564x/b2/bc/74/b2bc74df6904aa1c9b562d0660f22bb2.jpg"],
+    ["Demogorgon","https://i.pinimg.com/564x/32/3d/2a/323d2affed10be4c893c585206e5c66e.jpg"],
+    ["La Poupée","https://i.pinimg.com/564x/96/9c/c1/969cc1a9bda05b1aa07b17cfeee9295e.jpg"],
+    ["Kappa","https://i.pinimg.com/564x/4e/fc/f6/4efcf689174f792bcd7f721c167e42b2.jpg"],
+    ["Troll","https://i.pinimg.com/564x/16/f9/cc/16f9ccf1486080b39b28a68410c26b78.jpg"],
+    ["Aragog","https://i.pinimg.com/564x/05/b4/8e/05b48edf8fefb3d7f14bc0a95dbb104b.jpg"],
+    ["Kuchisake-onna","https://i.pinimg.com/564x/2a/50/99/2a509901fb872ef89467f7c9cf62cc33.jpg"],
+    ["The Grudge","https://i.pinimg.com/564x/a3/85/35/a3853551e41b3481168a74b4387ccb70.jpg"],
+],
 
 function generate() {
     let person1 = gens[Math.floor(Math.random() * gens.length)];
