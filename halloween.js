@@ -48,7 +48,7 @@ let gens = [
     ["Bella","https://i.pinimg.com/564x/79/d2/91/79d291f3145efcf242a396fc6127b99f.jpg"],
     ["Edward","https://i.pinimg.com/564x/9e/48/3d/9e483dd20b7e8b1a04477cf2143f20c7.jpg"],
     ["Tinky Winky","https://i.pinimg.com/564x/ff/0f/64/ff0f64b6abddd3c021ff6039181e4b85.jpg"],
-    ["Gipsy","https://i.pinimg.com/564x/e3/d8/5b/e3d85be567daad65ada292499a8422bc.jpg"],
+    ["Dipsy","https://i.pinimg.com/564x/e3/d8/5b/e3d85be567daad65ada292499a8422bc.jpg"],
     ["Lala","https://i.pinimg.com/564x/81/e5/85/81e585f5a6f592ff2428975bb968292d.jpg"],
     ["Po","https://i.pinimg.com/564x/11/45/e2/1145e2ff989c15a40f2bef8c5be307e5.jpg"],
     ["Thomas","https://i.pinimg.com/564x/b2/bc/74/b2bc74df6904aa1c9b562d0660f22bb2.jpg"],
