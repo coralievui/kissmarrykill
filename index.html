@@ -18,6 +18,10 @@
 
 <body>
     <img src="https://i.ibb.co/522fWSt/kmkblack.png" width="150px">
+    <div class="codezone">
+        <input type="text" id="input" placeholder="Entrez un code">
+        <button class="valider" type="button" onclick="getValue();"><b>Valider</b></button>
+    </div>
     <button class="help" data-modal-target="#modal">?</button>
     <div class="modal" id="modal">
         <div class="modal-header">
@@ -52,17 +56,65 @@
         <a href="music.html"><button class="music">Musiciens</button></a>
         <a href="halloween.html"><button class="halloween">Halloween</button></a>
         <button class="mystere">?</button>
+        <a href="prenoms.html"><button class="prenoms" id="prenoms">Prénoms</button></a>
     </div>
     <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSf7SjPcivX3vlRBE9nA-QPPs6JD6Bq5UCZTxhhNaTAVmmbW9w/viewform?embedded=true"
         width="800" height="800" frameborder="0" marginheight="0" marginwidth="0" class="form">Chargement…</iframe>
     <p>©2021 - Katmyr</p>
     <script src="popup.js"></script>
+    <script>
+        codesecret = "zouisday"
+        function getValue() {
+            // Sélectionner l'élément input et récupérer sa valeur
+            var input = document.getElementById("input").value;
+            if(codesecret == input) {
+                prenoms.style.visibility = 'visible';
+                alert("Vous avez débloqué une nouvelle catégorie !");
+            }else if(codesecret != input & input != ""){
+                alert("Ce code n'existe pas :(")
+            }
+            else {
+                alert("Vous n'avez rien écrit !")
+            }
+        }
+    </script>
     <style>
         * {
             user-select: none !important;
             font-family: 'Poppins';
             margin: 0px;
+        }
+
+        .codezone {
+            position: absolute;
+            margin-top: 60px;
+            margin-right: 100px;
+            top: 0;
+            right: 0;
+        }
+
+        input {
+            height: 25px;
+            border-radius: 10px;
+            outline: none;
+            border: solid;
+            border-color: #FF9696;
+            border-width: 2px;
+            padding-left: 5px;
+        }
+
+        .valider {
+            border-radius: 10px;
+            height: 30px;
+            width: 100px;
+            font-size: 16px;
+            margin: 0;
+            background-color: #ee6a91;
+        }
+
+        .valider:hover {
+            transform: scale(1);
         }
 
         button {
@@ -251,6 +303,15 @@
 
         .halloween:hover {
             background-color: #FFA673;
+        }
+
+        .prenoms {
+            background-color: #67c0bc;
+            visibility: hidden;
+        }
+
+        .prenoms:hover {
+            background-color: #7edfd2;
         }
 
 
