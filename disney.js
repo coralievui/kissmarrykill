@@ -80,7 +80,13 @@ let gens = [
     ["Mickey", "https://i.pinimg.com/564x/29/e6/4e/29e64e3f482601b12cc902c159d7fa4c.jpg"],
     ["Minnie", "https://i.pinimg.com/564x/e9/68/eb/e968eb48f0fabfff65a9bc39fbe60c65.jpg"],
     ["Picsou", "https://i.pinimg.com/564x/15/25/7f/15257f8b745d6748255404dfd0b70d71.jpg"],
-    ["Donald", "https://i.pinimg.com/564x/12/dc/fc/12dcfc1e1a63f2c6b2b2ce95ef84ade7.jpg"]
+    ["Donald", "https://i.pinimg.com/564x/12/dc/fc/12dcfc1e1a63f2c6b2b2ce95ef84ade7.jpg"],
+    ["Luca", "https://i.pinimg.com/564x/4b/97/1b/4b971b77b4dd3155a535d2536b7c3b12.jpg"],
+    ["Alberto", "https://i.pinimg.com/564x/06/64/9c/06649cda0122d7475099f99ab5ceeb30.jpg"],
+    ["Giulia", "https://i.pinimg.com/236x/e6/51/95/e651953d0186219859012c1222edf5ab.jpg"],
+    ["Raya", "https://i.pinimg.com/564x/2f/ca/01/2fca0104db23a132f44bd932771924b0.jpg"],
+    ["Namaari", "https://i.pinimg.com/564x/1a/43/98/1a4398402750d5bcc11638d4ec884c05.jpg"],
+    ["Mirabel Madrigal", "https://i.pinimg.com/564x/98/82/d8/9882d8a69f3949e165b2e8a535ec27a7.jpg"],
 ]
 
 function generate() {
