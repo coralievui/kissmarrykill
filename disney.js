@@ -87,6 +87,14 @@ let gens = [
     ["Raya", "https://i.pinimg.com/564x/2f/ca/01/2fca0104db23a132f44bd932771924b0.jpg"],
     ["Namaari", "https://i.pinimg.com/564x/1a/43/98/1a4398402750d5bcc11638d4ec884c05.jpg"],
     ["Mirabel Madrigal", "https://i.pinimg.com/564x/98/82/d8/9882d8a69f3949e165b2e8a535ec27a7.jpg"],
+    ["Luisa Madrigal", "https://i.pinimg.com/564x/bb/e7/11/bbe711d149a3c2ea07c7722bd00f98c3.jpg"],
+    ["Isabela Madrigal", "https://i.pinimg.com/564x/d3/1f/24/d31f240d4143a6f13864c662abbbdc26.jpg"],
+    ["Dolores Madrigal", "https://i.pinimg.com/564x/c8/ee/10/c8ee1056c84f12688585400227e41674.jpg"],
+    ["Camilo Madrigal", "https://i.pinimg.com/564x/20/ce/98/20ce98579e5322426b25e854f64821a7.jpg"],
+    ["Julieta Madrigal", "https://i.pinimg.com/564x/e7/8e/9e/e78e9ede1067797d500470812d796013.jpg"],
+    ["Peppa Madrigal", "https://i.pinimg.com/564x/95/87/19/95871960e84f00fde99073c03371c388.jpg"],
+    ["Felix Madrigal", "https://i.pinimg.com/564x/bd/03/4f/bd034f29635bd25d0fcd8b073c2d93df.jpg"],
+    ["Bruno Madrigal", "https://i.pinimg.com/564x/e5/d5/35/e5d53561c9b4df03a4ce8ee9864fb34f.jpg"],
 ]
 
 function generate() {
