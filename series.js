@@ -43,6 +43,9 @@ let gens = [
     ["Leia (Star Wars)", "https://i.pinimg.com/564x/ee/0c/9d/ee0c9d9d6eb80d8a850b86598506c5e6.jpg"],
     ["Padme (Star Wars)", "https://i.pinimg.com/564x/d3/93/1b/d3931b06aca5564dd22b771fd136fddd.jpg"],
     ["Rue (Euphoria)", "https://i.pinimg.com/564x/4b/a5/8a/4ba58abcaf6dc9ee06256ef47abfbfae.jpg"],
+    ["Jules (Euphoria)", "https://i.pinimg.com/564x/a0/13/42/a01342c425ce39a6df532166fd3da814.jpg"],
+    ["Nate (Euphoria)", "https://i.pinimg.com/564x/90/2e/f6/902ef628a099d4e098307c63f1445652.jpg"],
+    ["Maddy (Euphoria)", "https://i.pinimg.com/564x/1e/60/2c/1e602c0659bcb5f2f447ee59066de1dc.jpg"],
     ["Eleven (Stranger Things)", "https://i.pinimg.com/564x/84/4a/48/844a48fb3a01827ebaa3d0512a202079.jpg"],
     ["Legolas (Lord of The Rings)", "https://i.pinimg.com/564x/56/cc/a3/56cca3ae2d42bf6352e00bd7b9c24e83.jpg"],
     ["Frodon (Lord of The Rings)", "https://i.pinimg.com/564x/e9/c0/85/e9c0853068e60cb73c33b2d283251c3e.jpg"],
@@ -87,7 +90,12 @@ let gens = [
     ["Emma", "https://i.pinimg.com/564x/af/30/d0/af30d031bee53aba30c65f5f7895a7b5.jpg"],
     ["Luke", "https://i.pinimg.com/564x/41/74/96/417496d0e5ab15362e9c3354d0d58704.jpg"],
     ["Enola Holmes", "https://i.pinimg.com/564x/70/8c/1b/708c1bed0fb2397e4bf81f8a4cc1afec.jpg"],
-    ["Mr Bean", "https://i.pinimg.com/564x/72/f3/ab/72f3ab641148d227d799570de7547777.jpg"]
+    ["Mr Bean", "https://i.pinimg.com/564x/72/f3/ab/72f3ab641148d227d799570de7547777.jpg"],
+    ["Gi Hun (Squid Game)", "https://i.pinimg.com/564x/10/f9/a0/10f9a0723d648a20b19f4cec0abd5985.jpg"],
+    ["Saebyeok (Squid Game)", "https://i.pinimg.com/564x/86/6a/15/866a155b8d988a9f494bede96ec9b215.jpg"],
+    ["Ji Yeon (Squid Game)", "https://i.pinimg.com/564x/3f/7d/9b/3f7d9b480bf85a75157587473f375ae5.jpg"],
+    ["Ali (Squid Game)", "https://i.pinimg.com/564x/63/d4/80/63d480b78a17af59824551a4f416b1fe.jpg"],
+    ["Jun-Ho (Squid Game)", "https://i.pinimg.com/564x/f7/83/eb/f783ebe6fde1c4ca74c9822f366cda4c.jpg"],
 ]
 
 function generate() {
