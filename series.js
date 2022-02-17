@@ -109,6 +109,7 @@ let gens = [
     ["Oswald (Gotham)", "https://i.pinimg.com/564x/e7/82/eb/e782eb2a4e6590fd22e7ec2b1de9a78b.jpg"],
     ["Barbara (Gotham)", "https://i.pinimg.com/564x/e2/a3/08/e2a30887063379cbdbf7d617d64d12ab.jpg"],
     ["Tabatha (Gotham)", "https://i.pinimg.com/564x/e9/fa/d1/e9fad18899b25323d553020a9541e76f.jpg"],
+    ["Thomas (Downtown Abbey)", "https://i.pinimg.com/564x/1c/3e/45/1c3e45724f72b88935b425422a4a46d9.jpg"]
 ]
 
 function generate() {
