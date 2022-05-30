@@ -78,6 +78,20 @@ let gens= [
 ["Moon Ga Young", "https://i.pinimg.com/564x/91/a9/1b/91a91bd13488d1fbbad2086bd0e0bbb4.jpg"],
 ["Lily James", "https://i.pinimg.com/564x/2f/ce/9b/2fce9b9abf5a60e296dc605483476d27.jpg"],
 ["Margot Robbie", "https://i.pinimg.com/564x/d5/d2/96/d5d296a30e862efe9a3622f28b09e17e.jpg"],
+["Christian Bale", "https://i.pinimg.com/564x/4e/a7/f9/4ea7f9c55ee5bf3e2c64df0830df5827.jpg"],
+["Mark Ruffalo", "https://i.pinimg.com/564x/1e/16/46/1e164628c6043d844ac61b8f89da8ff5.jpg"],
+["Marilyn Monroe", "https://i.pinimg.com/564x/ab/08/0f/ab080f71623a6ddfcaedde6c7a997999.jpg"],
+["Hugh Jackman", "https://i.pinimg.com/564x/88/bb/d8/88bbd8c54ce7d77950e59ce21b3621d0.jpg"],
+["Austin Butler", "https://i.pinimg.com/564x/e0/87/c4/e087c4f19d4edc3bc382556cc7ef444b.jpg"],
+["Zoe Kravitz", "https://i.pinimg.com/564x/8f/42/4f/8f424f831d359ef8ca371ba47e45bc2e.jpg"],
+["Anya Taylor Joy", "https://i.pinimg.com/564x/f1/5b/9c/f15b9c12305079f1d4d9c2d9d7f2c7f2.jpg"],
+["Nina Dobrev", "https://i.pinimg.com/564x/e2/0c/66/e20c66e25c6736a8f30430fc41e0312d.jpg"],
+["Florence Pugh", "https://i.pinimg.com/564x/6c/44/77/6c4477864a5644996cde5d854deaafe7.jpg"],
+["Arnold Schwarzenegger", "https://i.pinimg.com/564x/55/34/6f/55346f3fef242f97d2db9a602ad1af79.jpg"],
+["Ncuti Gatwa", "https://i.pinimg.com/564x/09/58/6c/09586cebffc6cf1f9d5643179b7395c0.jpg"],
+["Kit Connor", "https://i.pinimg.com/564x/b1/81/78/b181780e70e15b9b0016d94b6164e4ee.jpg"],
+["Joe Locke", "https://i.pinimg.com/564x/71/4b/12/714b1207f4070c7a13b6b90bd36dc201.jpg"],
+["Yasmin Finney", "https://i.pinimg.com/564x/aa/64/f4/aa64f4963654b63cdde0f99098dd44cd.jpg"],
 ]
     
 function generate() {
