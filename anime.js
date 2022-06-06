@@ -119,6 +119,13 @@ let gens = [
     ["Rika (Wonder Egg Priority)", "https://i.pinimg.com/236x/44/97/92/4497923b619f0ca96c5e703bcdd15c4f.jpg"],
     ["Neiru (Wonder Egg Priority)", "https://i.pinimg.com/564x/25/6e/46/256e463015d4012cad5a32f5ee74984f.jpg"],
     ["Nagatoro", "https://i.pinimg.com/564x/06/0c/86/060c8657dff4f4cc1ef24526cb27f5ad.jpg"],
+    ["Loid (Spy x Family)", "https://i.pinimg.com/564x/7a/47/93/7a4793831d50736ecb39fd93f7dbd5e6.jpg"],
+    ["Yor (Spy x Family)", "https://i.pinimg.com/564x/58/22/50/582250f5f70094b90953c8c805abe204.jpg"],
+    ["Hanako Kun", "https://i.pinimg.com/564x/af/a5/19/afa519832ed35735cd4b694a7a1f7a62.jpg"],
+    ["Krul Tepes (Seraph of the End)", "https://i.pinimg.com/564x/b0/ed/ea/b0edeae748f90db4f8659c89cfc9609c.jpg"],
+    ["Mika (Seraph of the End)", "https://i.pinimg.com/564x/bc/61/b2/bc61b2c625990c01d9e531757c005912.jpg"],
+    ["Yuu (Seraph of the End)", "https://i.pinimg.com/564x/82/f5/cc/82f5cca29584b0733dbeee64100f2dd3.jpg"],
+    ["Guren (Seraph of the End)", "https://i.pinimg.com/564x/e2/5f/8b/e25f8b33a0973c89b68ae4a2f523ed4e.jpg"],
 ]
 
 function generate() {
