@@ -158,6 +158,27 @@ let gens = [
     ["Keonhee (ONEUS)", "https://i.pinimg.com/564x/7b/b8/8c/7bb88c01571483a19570e66ad251e903.jpg"],
     ["Hwanwoong (ONEUS)", "https://i.pinimg.com/564x/14/4f/b7/144fb7c80301073f94c07f200a69dfc1.jpg"],
     ["Gikwang (HIGHLIGHT)", "https://i.pinimg.com/564x/72/b5/b7/72b5b73baa28daf87acdef6ddb96940a.jpg"],
+    ["Yujin (IVE)", "https://i.pinimg.com/564x/bf/db/15/bfdb1575ef574ddd288281b62e6da60b.jpg"],
+    ["Wonyoung (IVE)", "https://i.pinimg.com/564x/d4/00/d3/d400d3d6f0084805b3f43ffeb93c79b8.jpg"],
+    ["Gaeul (IVE)", "https://i.pinimg.com/564x/3a/6b/1f/3a6b1f7cb32975d0cf7e63511af1e64a.jpg"],
+    ["Liz (IVE)", "https://i.pinimg.com/564x/43/2c/df/432cdfbf97e3502064bcb7d6e5717174.jpg"],
+    ["Rei (IVE)", "https://i.pinimg.com/564x/a8/c2/79/a8c2790d3169e63c43a3216331463c23.jpg"],
+    ["Leeseo (IVE)", "https://i.pinimg.com/564x/be/c8/2b/bec82bdde5575e113ae1325c763087c6.jpg"],
+    ["Sakura (Le Sserafim)", "https://i.pinimg.com/564x/29/2a/7c/292a7cd66c9a3e3d5af5dda4f6ae3cf2.jpg"],
+    ["Chaewon (Le Sserafim)", "https://i.pinimg.com/564x/cc/0f/42/cc0f429b6b978b79cbc87c2214839f45.jpg"],
+    ["Yunjin (Le Sserafim)", "https://i.pinimg.com/564x/47/85/0e/47850ea8585f5e073d41731376b1331d.jpg"],
+    ["Kazuha (Le Sserafim)", "https://i.pinimg.com/564x/a0/40/56/a04056f9f88bde3e400ba1792b4dd226.jpg"],
+    ["Eunchae (Le Sserafim)", "https://i.pinimg.com/564x/7a/0b/9b/7a0b9bfbfef6d505dd7c6753db3e6977.jpg"],
+    ["Handong (Dreamcatcher)", "https://i.pinimg.com/564x/68/41/a2/6841a21d9de1e9f59ad84815368caec4.jpg"],
+    ["Siyeon(Dreamcatcher)", "https://i.pinimg.com/564x/91/3b/0e/913b0e8b77c3a7bca1144ffa7666a927.jpg"],
+    ["Dami (Dreamcatcher)", "https://i.pinimg.com/564x/d1/78/ab/d178ab01eac58f2aff8bac6a2da95b63.jpg"],
+    ["JiU (Dreamcatcher)", "https://i.pinimg.com/564x/88/41/3f/88413f13ed423bf863d4cb8da4187ac9.jpg"],
+    ["SuA (Dreamcatcher)", "https://i.pinimg.com/564x/5d/dd/71/5ddd717ceaa34d63e024e5be69e049f4.jpg"],
+    ["Yoohyeon (Dreamcatcher)", "https://i.pinimg.com/564x/dc/02/54/dc0254f206085eee4e102941f15ebebe.jpg"],
+    ["Gahyeon (Dreamcatcher)", "https://i.pinimg.com/564x/d2/71/d2/d271d24e76ff1787bb0d8d4753ec8c67.jpg"],
+    ["The8 (SVT)", "https://i.pinimg.com/564x/e6/84/7d/e6847d672f3f9638c63afd5203c91e11.jpg"],
+    ["Joshua (SVT)", "https://i.pinimg.com/564x/72/52/95/725295d8518b8d1be2f1761b9554c62b.jpg"],
+    ["Hoshi (SVT)", "https://i.pinimg.com/564x/4d/da/63/4dda63a7f3d02ac22897766d5dd43821.jpg"]
 ]
 
 function generate() {
