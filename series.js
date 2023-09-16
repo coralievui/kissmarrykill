@@ -164,7 +164,7 @@ let gens = [
     ["Ethan", "https://i.pinimg.com/564x/51/4e/5c/514e5cdf175110a24a2101ff2aa9c7f8.jpg"],
     ["Ariel", "https://i.pinimg.com/564x/ff/8b/13/ff8b13be92fde41abbdcd9dd1e41b069.jpg"],
     ["Eric", "https://i.pinimg.com/564x/e2/fd/4d/e2fd4d2f5b952f5ff9500ae4551d25ec.jpg"],
-    ["Vanessa", "https://i.pinimg.com/564x/88/f6/c5/88f6c513e6e591072cdb9890faf42067.jpg"]
+    ["Vanessa", "https://i.pinimg.com/564x/88/f6/c5/88f6c513e6e591072cdb9890faf42067.jpg"],
 ]
 
 function generate() {
